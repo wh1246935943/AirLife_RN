@@ -1,0 +1,27 @@
+{
+  "name": "air",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.2",
+    "react-native-actionsheet": "^2.2.2",
+    "react-native-image-picker": "^0.26.6",
+    "react-native-scrollable-tab-view": "^0.6.7",
+    "react-native-scrollable-tab-view-master": "^0.7.7",
+    "react-navigation": "^1.0.0-beta.11"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "3.0.2",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
